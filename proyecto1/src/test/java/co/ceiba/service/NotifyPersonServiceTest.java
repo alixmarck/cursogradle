@@ -25,7 +25,7 @@ public class NotifyPersonServiceTest {
 		//Arrange
 		Person person = new PersonTestDataBuilder().build();
 		//Act
-		String message = notifyPersonService.notify(person);
+		String message = null;//notifyPersonService.notify(person);
 		//Assert
 		Assert.assertNotNull(message);
 		
